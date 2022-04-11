@@ -1,0 +1,40 @@
+.TextTransform {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+}
+
+.text-fzth {
+  opacity: 0;
+  background: -webkit-linear-gradient(rgb(12, 151, 243), rgb(65, 184, 10));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.text-from-active {
+  opacity: 1;
+  transform: scale(0.6, 0.6);
+  transition: transform ease-in 0.5s;
+}
+
+.text-zero-active {
+  opacity: 1;
+  transform: scale(0.6, 0.6);
+  transition: transform ease-in 0.5s;
+}
+
+.text-to-active {
+  opacity: 1;
+  transform: scale(0.6, 0.6);
+  transition: transform ease-in 0.5s;
+}
+
+.text-hero-active {
+  opacity: 1;
+  transform: scale(0.6, 0.6);
+  transition: transform ease-in 0.5s;
+}

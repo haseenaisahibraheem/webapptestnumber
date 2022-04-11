@@ -1,0 +1,30 @@
+.User {
+  margin: 10px 0 10px 0;
+  background-color: #b6ae5e;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px #cccccc;
+  text-align: center;
+}
+
+.todo-item {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.todo-item-complete {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.nav-search-todo-item {
+  padding: 10px 30px 10px 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.header-todo-list {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
